@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Zing Rust Demo"; 
+    src: url("./fonts/ZingRustDemo.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Zing Rust Demo", sans-serif;
+}
+
+.form {
+    padding: 80px 0 120px 0;
+}
+.container {
+    max-width: 1470px;
+    width: 100%;
+}
+
+h1 {
+    color: #21201F;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0%;
+    text-transform: uppercase;
+}
