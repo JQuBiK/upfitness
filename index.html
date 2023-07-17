@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма</title>
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+
+    </header>
     <section class="form">
         <div class="container">
-            <h1>Оставьте ваш отзыв о работе клуба</h1>
+            <h1>ОСТАВЬТЕ ВАШ ОТЗЫВ О РАБОТЕ КЛУБА</h1>
+
+            <div class="form-wrapper">
+                <div class="form-content">
+                    <form action="" method="POST">
+                        <h2 class="form-title">Выберите клуб:</h2>
+                        <div class="radio-container">
+                            <div class="radio-button">
+                                <input type="radio" id="upfitness1" name="upfitness" value="Upfitness на Маяковского">
+                                <label for="upfitness1">Upfitness на Маяковского</label>
+                            </div>
+                            <div class="radio-button">
+                                <input type="radio" id="upfitness2" name="upfitness" value="Upfitness на Луговой" checked>
+                                <label for="upfitness2">Upfitness на Луговой</label>
+                            </div>
+                        </div>
+                        
+                        <input type="tel" name="phone" placeholder="Номер телефона (необязательно)" class="form-input">
+                        <input type="email" name="mail" placeholder="Email (необязательно)" class="form-input">
+                        <textarea type="text" name="text" placeholder="Ваш отзыв" class="form-textarea"></textarea>
+                        <button type="submit" class="send-btn">отправить отзыв</button>
+                    </form>
+                    <p>Нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+                </div>
+            </div>
         </div>
     </section>
     
