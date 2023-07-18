@@ -329,3 +329,49 @@ h2.form-title {
         transform: rotate(9deg);
     }
 }
+
+
+/* СТИЛИ СЛАЙДЕРА */
+
+.fitnes-slider-text {
+    position: absolute;
+    z-index: 10001;
+    color: #fff;
+    bottom: 50px;
+    display: block;
+    left: 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.fitnes-slider .slick-dots li button {
+    display: none;
+}
+
+.fitnes-slider .slick-dots li {
+    display: block;
+    background-color: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+}
+
+.fitnes-slider .slick-dots {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 23px;
+    left: 52.5%;
+    transform: translateX(-50%);
+    margin: 0 -9px;
+}
+
+.fitnes-slider .slick-dots li.slick-active {
+    background-color: #FF3033;
+}
